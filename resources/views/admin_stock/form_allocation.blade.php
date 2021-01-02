@@ -69,8 +69,8 @@
               </div>
 
 			  <div class="col-md-2">
-					  <div class="input-group" style="margin-top: 20px;">
-					  <div class="checkbox checkbox-success"  id="hide_locker_0_{{$item_id}}">
+					  <div class="input-group">
+					  <div class="checkbox checkbox-success"  id="hide_locker_0_{{$item_id}}"  style="margin-right: 20px;">
 						<input id="checkbox3_0_{{$item_id}}" value="store" type="checkbox" name="storelocator_0" >
 						<label for="checkbox3_0_{{$item_id}}"> Locker </label>
 					  </div>
@@ -87,13 +87,13 @@
 						<input type="hidden" name="dynamoselectcount_0" id="dynamoselectcount_0_{{$item_id}}">
               </div>
               <div class="col-md-2">
-					  <div class="pull-right" style="margin-right:20px;">
+					  <div class="pull-right">
 						<div class="input-group">
 						<button type="button" onclick="addmorerow('{{$item_id}}')" id="add_field_button_1_{{$item_id}}" class="btn btn-danger btn-sm mb-5"><i class="fa fa-plus" aria-hidden="true"></i></button>
 						</div>
 						</div>
 						&nbsp;&nbsp;
-						<div class="pull-right">
+						<div class="pull-right" style="margin-right:20px;">
 				<div class="input-group">
 				<button type="button" onClick="remove_field_1('1')" class="btn btn-dark btn-sm mb-5"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
 				</div>
