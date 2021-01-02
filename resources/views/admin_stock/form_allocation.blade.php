@@ -80,7 +80,7 @@
 					  </div>
 					</div>
               </div>
-              <div class="col-md-1">
+              <div class="col-md-2">
 						<div class="form-group">
 						 <input type="number" name="quantity_0" required id="quantity_0_{{$item_id}}" class="form-control quantity" placeholder="" onblur="calculate_amount()" min="0">
 						</div>
