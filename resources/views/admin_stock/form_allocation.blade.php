@@ -86,13 +86,13 @@
 						</div>
 						<input type="hidden" name="dynamoselectcount_0" id="dynamoselectcount_0_{{$item_id}}">
               </div>
-              <div class="col-md-1">
-					  <div class="pull-right">
+              <div class="col-md-2">
+					  <div class="pull-right" style="margin-right:20px;">
 						<div class="input-group">
 						<button type="button" onclick="addmorerow('{{$item_id}}')" id="add_field_button_1_{{$item_id}}" class="btn btn-danger btn-sm mb-5"><i class="fa fa-plus" aria-hidden="true"></i></button>
 						</div>
 						</div>
-
+						&nbsp;&nbsp;
 						<div class="pull-right">
 				<div class="input-group">
 				<button type="button" onClick="remove_field_1('1')" class="btn btn-dark btn-sm mb-5"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
